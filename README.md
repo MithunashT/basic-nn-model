@@ -1,6 +1,3 @@
-# Developing a Neural Network Regression Model
-
-## AIM
 ### EXP NO: 01
 
 ### .
@@ -13,7 +10,8 @@ To develop a neural network regression model for the given dataset.
 The Neural network model contains input layer,two hidden layers and output layer.Input layer contains a three neuron.Output layer  contains single neuron.First hidden layer contains four neurons and second hidden layer contains four neurons.A neuron in input layer is connected with every neurons in a first hidden layer.Similarly,each neurons in first hidden layer is connected with all neurons in second hidden layer.All neurons in second hidden layer is connected with output layered neuron.Relu activation function is used here .It is linear neural network model(single input neuron forms single output neuron).
 
 ## <br><br><br><br><br><br><br>Neural Network Model
-![Screenshot 2022-09-17 205538](https://user-images.githubusercontent.com/112951095/190864582-6259f24a-430e-469a-9f88-9b41d2d8fb4e.png)
+
+![Screenshot 2022-09-17 205538](https://user-images.githubusercontent.com/112951095/190864660-78cf41e8-de69-4b89-ba4e-b901e6d3de4c.png)
 
 
 ## DESIGN STEPS
@@ -34,7 +32,7 @@ Evaluate the model with the testing data.
 
 ## PROGRAM
 ```python
-# Developed By: MITHUNASH T
+# Developed By:MITHUNASH T
 # Register Number:212220040088
 
 import pandas as pd
@@ -92,4 +90,3 @@ model.predict(xn11)
 
 ## RESULT
 Thus,the neural network regression model for the given dataset is developed.
-
